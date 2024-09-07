@@ -2,4 +2,7 @@
 Api Collection
 You can test the Api's on Postman or URL
 https://orange-shuttle-9930.postman.co/workspace/Team-Workspace~22e167d3-5c53-4bb5-888d-0b8068a1f10d/collection/24389310-a5d6bbd9-f318-47f3-9584-8b1281d44d2d?action=share&creator=24389310
-for user signup you can type 
+for user signup you can type - http://localhost:3000/api/auth/signup
+for user login - http://localhost:3000/api/auth/login
+getting all users - http://localhost:3000/api/auth/
+
