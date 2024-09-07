@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <script src="dashboard.js" defer></script>
+</head>
+<body>
+  <h1>Welcome to your dashboard!</h1>
+  <div id="user-info"></div>
+  <button id="logoutBtn">Logout</button> <!-- Logout button -->
+
+  <script>
+    // Logout button functionality
+    document.getElementById('logoutBtn').addEventListener('click', function() {
+      // Remove the token from local storage
+      localStorage.removeItem('token');
+
+      // Redirect to the login page
+      window.location.href = '/login.html';
+    });
+  </script>
+</body>
+</html>
